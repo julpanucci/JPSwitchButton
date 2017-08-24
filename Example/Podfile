@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JPSwitchButton_Example' do
+  pod 'JPSwitchButton', :path => '../'
+
+  target 'JPSwitchButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
