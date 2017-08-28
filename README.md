@@ -20,6 +20,69 @@ it, simply add the following line to your Podfile:
 pod "JPSwitchButton"
 ```
 
+
+# Usage
+
+## Initalizing Button
+
+### Button Without an Image
+```swift
+let switchButton = JPSwitchButton(frame: buttonFrame, offColor: .white, onColor: blue, image: nil, title: "Press me to turn on", description: "Currently I am off", isOn: false)
+```
+
+### Button With an Image
+
+```swift
+let twitterButton = JPSwitchButton(frame: buttonFrame2, offColor: .white, onColor: twitterBlue, image: #imageLiteral(resourceName: "twitter_on"), title: "Connect with Twitter", description: "Add your twitter account!")
+```
+
+### On Button Click
+You can choose what happens when your button is clicked by writing your code inside the block
+```swift
+switchButton.onClick =  {
+
+          switchButton.switchState()
+          switchButton.buttonTitle = switchButton.isOn ? "Press me to turn off" : "Press me to turn on"
+          switchButton.buttonDescription = switchButton.isOn ? "Currently I am on" : "Currently I am off"
+}
+```
+
+
+### On long press
+Create different action for a long press
+```swift
+twitterButton.onLongPress =  {
+        if twitterButton.isOn {
+            let url = URL(string: "http://twitter.com/\(username)")!
+            UIApplication.shared.openURL(url)
+        }
+    }
+```
+
+## Changing Button State
+
+### Switch State
+Will turn it off if on, and vice versa
+```swift
+switchButton.onClick =  {
+         switchButton.switchState()
+}
+```
+
+### Turn On
+```swift
+switchButton.onClick =  {
+         switchButton.turnOn()
+}
+```
+
+### Turn Off
+```swift
+switchButton.onClick =  {
+         switchButton.turnOff()
+}
+```
+
 ## Author
 
 julp04, julpanucci@gmail.com
