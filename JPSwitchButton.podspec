@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JPSwitchButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JPSwitchButton.'
+  s.summary          = 'Interactive button that can toggle into a fluid and animated looking on and off state'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Use this button to toggle different features of your app. Example: Linking your twitter account to show if it is linked or not. Allowing access to contacts/photos, etc.
                        DESC
 
   s.homepage         = 'https://github.com/julp04/JPSwitchButton'
