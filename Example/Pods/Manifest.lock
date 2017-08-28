@@ -1,0 +1,16 @@
+PODS:
+  - JPSwitchButton (0.1.0)
+
+DEPENDENCIES:
+  - JPSwitchButton (from `../`)
+
+EXTERNAL SOURCES:
+  JPSwitchButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JPSwitchButton: 8f916d66719b7c32b45de653b3dc6231f72cfd5f
+
+PODFILE CHECKSUM: c4f1a84e271fc46faebfebc65b0b92787156b10f
+
+COCOAPODS: 1.2.0

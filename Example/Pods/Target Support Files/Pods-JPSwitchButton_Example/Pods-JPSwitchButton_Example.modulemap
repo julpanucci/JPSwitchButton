@@ -1,0 +1,6 @@
+framework module Pods_JPSwitchButton_Example {
+  umbrella header "Pods-JPSwitchButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

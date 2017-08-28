@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078CFD6EF511AD6385E88B15B0B3A6BA /* Pods-JPSwitchButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A8A4064E1829BB21D5F22ABB1E6C74 /* Pods-JPSwitchButton_Example-dummy.m */; };
+		14B73CEACE26C038656044585A43FDF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2EDBB4006566054D088D1ED7F8CD2570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		369C3AB84EB2173BC462F8BE39651D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		372EBDD23808433F618A5FCF339D5F23 /* JPSwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AFC0B7C7B016BDE303A2953C0BE7A /* JPSwitchButton.swift */; };
+		57FCF79B7BA2237DC2C3C7B6393C0B55 /* Pods-JPSwitchButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F91A1B162766C85B782E56543EA5B6FC /* Pods-JPSwitchButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960F4A2E13702913022E129D857CC920 /* Pods-JPSwitchButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84131C892F0A2B64DD8EDF3A534B4B65 /* Pods-JPSwitchButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09275477994DE1E8D4E7437EA9E1E4B /* JPSwitchButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8F4B2A630F03E32142641906A62370 /* JPSwitchButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08BC039DC742EF08B79661BB637528E /* JPSwitchButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EE8F045AF80586F7254F5E6D13F2DA /* JPSwitchButton-dummy.m */; };
+		E811BA733F488FF39C36C3CF08EFAC5E /* Pods-JPSwitchButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1633AD2E410A3687BB4ED86161A6DD18 /* Pods-JPSwitchButton_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527811E21D3DFA8B1A681A91FD13AB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEE61546B11C3193B3478C48682D3C3;
+			remoteInfo = JPSwitchButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C5B0A385F47889F967D8DB4A781E593 /* Pods-JPSwitchButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JPSwitchButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D64F73E897954B9F74C60CDBB0D077D /* JPSwitchButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSwitchButton-prefix.pch"; sourceTree = "<group>"; };
+		10CEB58B3A6B77797FADA422B29737FF /* JPSwitchButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPSwitchButton.xcconfig; sourceTree = "<group>"; };
+		1633AD2E410A3687BB4ED86161A6DD18 /* Pods-JPSwitchButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPSwitchButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		1A4800198AE0F6C6FD113B125D9A1B29 /* Pods_JPSwitchButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPSwitchButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4210C00E84B7BFD1E4F0C5AC40812FA7 /* Pods-JPSwitchButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JPSwitchButton_Example.modulemap"; sourceTree = "<group>"; };
+		43A8A4064E1829BB21D5F22ABB1E6C74 /* Pods-JPSwitchButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPSwitchButton_Example-dummy.m"; sourceTree = "<group>"; };
+		610AFC0B7C7B016BDE303A2953C0BE7A /* JPSwitchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JPSwitchButton.swift; sourceTree = "<group>"; };
+		74F7DA71BD2253CF7CD79F55236AC8E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84131C892F0A2B64DD8EDF3A534B4B65 /* Pods-JPSwitchButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JPSwitchButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		8786EE336CD7F213CFBFEE35E5D805E4 /* Pods-JPSwitchButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JPSwitchButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		8D42D473F9852709A1040CA0178823A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9011B682F5B877DC2A19C9E446A9FF2F /* Pods-JPSwitchButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JPSwitchButton_Tests.modulemap"; sourceTree = "<group>"; };
+		92EE8F045AF80586F7254F5E6D13F2DA /* JPSwitchButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPSwitchButton-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A49FBFC142D5F738C64D19F22F18C769 /* Pods-JPSwitchButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JPSwitchButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A78D7AD4F60E6047259C0076046C7D84 /* Pods-JPSwitchButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JPSwitchButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B17B1DB8D897057303B5C6C29B69E3E0 /* Pods-JPSwitchButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPSwitchButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B5E59427F9982212E2E2FA72D08E6B5B /* Pods-JPSwitchButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JPSwitchButton_Example-resources.sh"; sourceTree = "<group>"; };
+		BA4043026367547A7BCD38728D19B3BD /* JPSwitchButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JPSwitchButton.modulemap; sourceTree = "<group>"; };
+		C75ACA8A9301D798BB494C7645965B53 /* Pods-JPSwitchButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPSwitchButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA8EC48537D9F8F6CB7C4F4CC91D86F6 /* Pods-JPSwitchButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPSwitchButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9FB56FCAB4FDA510AD84DBE90F8EE7 /* Pods-JPSwitchButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JPSwitchButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D67187F8E00EEF9B0E68952B4CD9A428 /* Pods-JPSwitchButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPSwitchButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA79C1E872BB10139FBE57FCEF0D6F8C /* Pods-JPSwitchButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPSwitchButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD6BFBD6559ADEEE9D0FE753ECA1AD94 /* Pods-JPSwitchButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPSwitchButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DE1A261300E3C45D992D683BF25E8A11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC713762B029757AA66B0707EAEF826 /* JPSwitchButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPSwitchButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8F4B2A630F03E32142641906A62370 /* JPSwitchButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSwitchButton-umbrella.h"; sourceTree = "<group>"; };
+		F3B997542852B905BB51069E2731BAD4 /* Pods_JPSwitchButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPSwitchButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91A1B162766C85B782E56543EA5B6FC /* Pods-JPSwitchButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JPSwitchButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70D01E7CE4DBB3C1636E05DBB2302268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C3AB84EB2173BC462F8BE39651D96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA2D09844CDE17D871AD579298882AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDBB4006566054D088D1ED7F8CD2570 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E80E603B3E6163130ED739E9624A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B73CEACE26C038656044585A43FDF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C18A8299E0C077CB21C7ADC0CEB29E2 /* JPSwitchButton */ = {
+			isa = PBXGroup;
+			children = (
+				4A4EB8E4E6893200DA8F3759B1A5A110 /* Classes */,
+			);
+			path = JPSwitchButton;
+			sourceTree = "<group>";
+		};
+		4A4EB8E4E6893200DA8F3759B1A5A110 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				610AFC0B7C7B016BDE303A2953C0BE7A /* JPSwitchButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		50884CDFF129037FB587CAD672246677 /* JPSwitchButton */ = {
+			isa = PBXGroup;
+			children = (
+				0C18A8299E0C077CB21C7ADC0CEB29E2 /* JPSwitchButton */,
+				CE3081477BD03293492791DF38BD13B0 /* Support Files */,
+			);
+			name = JPSwitchButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6702518FA9EBD369902671F4E75B371C /* Pods-JPSwitchButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A261300E3C45D992D683BF25E8A11 /* Info.plist */,
+				4210C00E84B7BFD1E4F0C5AC40812FA7 /* Pods-JPSwitchButton_Example.modulemap */,
+				CB9FB56FCAB4FDA510AD84DBE90F8EE7 /* Pods-JPSwitchButton_Example-acknowledgements.markdown */,
+				D67187F8E00EEF9B0E68952B4CD9A428 /* Pods-JPSwitchButton_Example-acknowledgements.plist */,
+				43A8A4064E1829BB21D5F22ABB1E6C74 /* Pods-JPSwitchButton_Example-dummy.m */,
+				A49FBFC142D5F738C64D19F22F18C769 /* Pods-JPSwitchButton_Example-frameworks.sh */,
+				B5E59427F9982212E2E2FA72D08E6B5B /* Pods-JPSwitchButton_Example-resources.sh */,
+				84131C892F0A2B64DD8EDF3A534B4B65 /* Pods-JPSwitchButton_Example-umbrella.h */,
+				CA8EC48537D9F8F6CB7C4F4CC91D86F6 /* Pods-JPSwitchButton_Example.debug.xcconfig */,
+				DD6BFBD6559ADEEE9D0FE753ECA1AD94 /* Pods-JPSwitchButton_Example.release.xcconfig */,
+			);
+			name = "Pods-JPSwitchButton_Example";
+			path = "Target Support Files/Pods-JPSwitchButton_Example";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				81AD8AEEE26CB67CE65BD7DEA8EE9335 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EA1830A11C250ED6ABDEB181819370D5 /* Products */,
+				8CBB4C1BB50B9AACCF81012F9F35E1E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		807162498E60530F27FBB1B3FA5885E8 /* Pods-JPSwitchButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8D42D473F9852709A1040CA0178823A3 /* Info.plist */,
+				9011B682F5B877DC2A19C9E446A9FF2F /* Pods-JPSwitchButton_Tests.modulemap */,
+				0C5B0A385F47889F967D8DB4A781E593 /* Pods-JPSwitchButton_Tests-acknowledgements.markdown */,
+				C75ACA8A9301D798BB494C7645965B53 /* Pods-JPSwitchButton_Tests-acknowledgements.plist */,
+				1633AD2E410A3687BB4ED86161A6DD18 /* Pods-JPSwitchButton_Tests-dummy.m */,
+				A78D7AD4F60E6047259C0076046C7D84 /* Pods-JPSwitchButton_Tests-frameworks.sh */,
+				8786EE336CD7F213CFBFEE35E5D805E4 /* Pods-JPSwitchButton_Tests-resources.sh */,
+				F91A1B162766C85B782E56543EA5B6FC /* Pods-JPSwitchButton_Tests-umbrella.h */,
+				DA79C1E872BB10139FBE57FCEF0D6F8C /* Pods-JPSwitchButton_Tests.debug.xcconfig */,
+				B17B1DB8D897057303B5C6C29B69E3E0 /* Pods-JPSwitchButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-JPSwitchButton_Tests";
+			path = "Target Support Files/Pods-JPSwitchButton_Tests";
+			sourceTree = "<group>";
+		};
+		81AD8AEEE26CB67CE65BD7DEA8EE9335 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50884CDFF129037FB587CAD672246677 /* JPSwitchButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8CBB4C1BB50B9AACCF81012F9F35E1E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6702518FA9EBD369902671F4E75B371C /* Pods-JPSwitchButton_Example */,
+				807162498E60530F27FBB1B3FA5885E8 /* Pods-JPSwitchButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3081477BD03293492791DF38BD13B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74F7DA71BD2253CF7CD79F55236AC8E2 /* Info.plist */,
+				BA4043026367547A7BCD38728D19B3BD /* JPSwitchButton.modulemap */,
+				10CEB58B3A6B77797FADA422B29737FF /* JPSwitchButton.xcconfig */,
+				92EE8F045AF80586F7254F5E6D13F2DA /* JPSwitchButton-dummy.m */,
+				0D64F73E897954B9F74C60CDBB0D077D /* JPSwitchButton-prefix.pch */,
+				EF8F4B2A630F03E32142641906A62370 /* JPSwitchButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JPSwitchButton";
+			sourceTree = "<group>";
+		};
+		EA1830A11C250ED6ABDEB181819370D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC713762B029757AA66B0707EAEF826 /* JPSwitchButton.framework */,
+				F3B997542852B905BB51069E2731BAD4 /* Pods_JPSwitchButton_Example.framework */,
+				1A4800198AE0F6C6FD113B125D9A1B29 /* Pods_JPSwitchButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		399F3510DB190FB689F51100A00AA66C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FCF79B7BA2237DC2C3C7B6393C0B55 /* Pods-JPSwitchButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2A001EC15AB3FEA709ACC6C4267AD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960F4A2E13702913022E129D857CC920 /* Pods-JPSwitchButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E06B851E59343406A55FB1FF424ECB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09275477994DE1E8D4E7437EA9E1E4B /* JPSwitchButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0703D20B817E46D49AE15EF70D21EFA3 /* Pods-JPSwitchButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E608A2EAC31FDD0E766880D01D7BB32 /* Build configuration list for PBXNativeTarget "Pods-JPSwitchButton_Example" */;
+			buildPhases = (
+				88E9708A08F7E9B95FC96AC0A3DC880C /* Sources */,
+				CFA2D09844CDE17D871AD579298882AB /* Frameworks */,
+				3E2A001EC15AB3FEA709ACC6C4267AD0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3574ADDC14DB6173A524B509ACAB1558 /* PBXTargetDependency */,
+			);
+			name = "Pods-JPSwitchButton_Example";
+			productName = "Pods-JPSwitchButton_Example";
+			productReference = F3B997542852B905BB51069E2731BAD4 /* Pods_JPSwitchButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AEE61546B11C3193B3478C48682D3C3 /* JPSwitchButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCB9DF623C18368796B8C29E1BBF6BF /* Build configuration list for PBXNativeTarget "JPSwitchButton" */;
+			buildPhases = (
+				97478F0E2839B423D81BC645A0FBA3EF /* Sources */,
+				F9E80E603B3E6163130ED739E9624A02 /* Frameworks */,
+				4E06B851E59343406A55FB1FF424ECB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPSwitchButton;
+			productName = JPSwitchButton;
+			productReference = EDC713762B029757AA66B0707EAEF826 /* JPSwitchButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E94DB75119D68F4BA7EB248F2828773A /* Pods-JPSwitchButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7259357A61FFA270BB21C1EDF1E543F1 /* Build configuration list for PBXNativeTarget "Pods-JPSwitchButton_Tests" */;
+			buildPhases = (
+				A802E1B7722EE471F34F377F1B317E08 /* Sources */,
+				70D01E7CE4DBB3C1636E05DBB2302268 /* Frameworks */,
+				399F3510DB190FB689F51100A00AA66C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JPSwitchButton_Tests";
+			productName = "Pods-JPSwitchButton_Tests";
+			productReference = 1A4800198AE0F6C6FD113B125D9A1B29 /* Pods_JPSwitchButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EA1830A11C250ED6ABDEB181819370D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AEE61546B11C3193B3478C48682D3C3 /* JPSwitchButton */,
+				0703D20B817E46D49AE15EF70D21EFA3 /* Pods-JPSwitchButton_Example */,
+				E94DB75119D68F4BA7EB248F2828773A /* Pods-JPSwitchButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88E9708A08F7E9B95FC96AC0A3DC880C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078CFD6EF511AD6385E88B15B0B3A6BA /* Pods-JPSwitchButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97478F0E2839B423D81BC645A0FBA3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08BC039DC742EF08B79661BB637528E /* JPSwitchButton-dummy.m in Sources */,
+				372EBDD23808433F618A5FCF339D5F23 /* JPSwitchButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A802E1B7722EE471F34F377F1B317E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E811BA733F488FF39C36C3CF08EFAC5E /* Pods-JPSwitchButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3574ADDC14DB6173A524B509ACAB1558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPSwitchButton;
+			target = 9AEE61546B11C3193B3478C48682D3C3 /* JPSwitchButton */;
+			targetProxy = 527811E21D3DFA8B1A681A91FD13AB76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		307D927B98EBA585143B926A0BDE419E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CEB58B3A6B77797FADA422B29737FF /* JPSwitchButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JPSwitchButton/JPSwitchButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPSwitchButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JPSwitchButton/JPSwitchButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JPSwitchButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46F126A4C1A46249DE320575237B3648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6BFBD6559ADEEE9D0FE753ECA1AD94 /* Pods-JPSwitchButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JPSwitchButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPSwitchButton_Example/Pods-JPSwitchButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JPSwitchButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C76FC41B4858EFD39FFC914C3DC175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA79C1E872BB10139FBE57FCEF0D6F8C /* Pods-JPSwitchButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JPSwitchButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPSwitchButton_Tests/Pods-JPSwitchButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JPSwitchButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B34A5727D5BAB9045393BD69459C4612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CEB58B3A6B77797FADA422B29737FF /* JPSwitchButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JPSwitchButton/JPSwitchButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPSwitchButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JPSwitchButton/JPSwitchButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JPSwitchButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC41D36F23F173379A1FADD87ED21C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17B1DB8D897057303B5C6C29B69E3E0 /* Pods-JPSwitchButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JPSwitchButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPSwitchButton_Tests/Pods-JPSwitchButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JPSwitchButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8778945959FA182FD849F68B29A2CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8EC48537D9F8F6CB7C4F4CC91D86F6 /* Pods-JPSwitchButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JPSwitchButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPSwitchButton_Example/Pods-JPSwitchButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JPSwitchButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7259357A61FFA270BB21C1EDF1E543F1 /* Build configuration list for PBXNativeTarget "Pods-JPSwitchButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C76FC41B4858EFD39FFC914C3DC175 /* Debug */,
+				CC41D36F23F173379A1FADD87ED21C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCB9DF623C18368796B8C29E1BBF6BF /* Build configuration list for PBXNativeTarget "JPSwitchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34A5727D5BAB9045393BD69459C4612 /* Debug */,
+				307D927B98EBA585143B926A0BDE419E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E608A2EAC31FDD0E766880D01D7BB32 /* Build configuration list for PBXNativeTarget "Pods-JPSwitchButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8778945959FA182FD849F68B29A2CFE /* Debug */,
+				46F126A4C1A46249DE320575237B3648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

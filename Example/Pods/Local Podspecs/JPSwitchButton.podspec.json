@@ -1,0 +1,22 @@
+{
+  "name": "JPSwitchButton",
+  "version": "0.1.0",
+  "summary": "A short description of JPSwitchButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/julp04/JPSwitchButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "julp04": "julpanucci@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/julp04/JPSwitchButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JPSwitchButton/Classes/**/*"
+}
