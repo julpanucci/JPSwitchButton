@@ -30,11 +30,15 @@ pod "JPSwitchButton"
 let switchButton = JPSwitchButton(frame: buttonFrame, offColor: .white, onColor: blue, image: nil, title: "Press me to turn on", description: "Currently I am off", isOn: false)
 ```
 
+![Alt text](https://github.com/Julp04/JPSwitchButton/blob/master/jpswitchbutton_0.gif)
+
 ### Button With an Image
 
 ```swift
 let twitterButton = JPSwitchButton(frame: buttonFrame2, offColor: .white, onColor: twitterBlue, image: #imageLiteral(resourceName: "twitter_on"), title: "Connect with Twitter", description: "Add your twitter account!")
 ```
+
+![Alt text](https://github.com/Julp04/JPSwitchButton/blob/master/jpswitchbutton_2.gif)
 
 ### On Button Click
 You can choose what happens when your button is clicked by writing your code inside the block
@@ -47,7 +51,6 @@ switchButton.onClick =  {
 }
 ```
 
-
 ### On long press
 Create different action for a long press
 ```swift
@@ -58,6 +61,8 @@ twitterButton.onLongPress =  {
         }
     }
 ```
+
+![Alt text](https://github.com/Julp04/JPSwitchButton/blob/master/jpswitchbutton_3.gif)
 
 ## Changing Button State
 
